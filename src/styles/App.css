@@ -1,0 +1,170 @@
+body {
+  background-color: #f1e9db;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.yellow-text {
+  color: #ebcf70;
+  font-weight: bold;
+}
+
+.bg-custom-yellow {
+  background-color: #ebcf70;
+  border-radius: 10px;
+}
+
+.custom-breadcrumb-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+  background-color: #e5e5e5;
+  min-height: 100vh;
+}
+
+.search {
+  height: 100vh;
+}
+
+.navbar-bg {
+  background-color: #ebcf70;
+}
+
+.card-business:hover {
+  box-shadow: 0px 5px 10px gray;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn.btn-submit {
+  color: black;
+  background: #ebcf70;
+  border: 1px solid #ebcf70;
+  font-weight: 500;
+}
+
+.btn.btn-submit:hover {
+  color: black !important;
+  background: #ebcf70 !important;
+  border: 1px solid #ebcf70 !important;
+}
+
+.btn.btn-more {
+  color: black;
+  background: #ebcf70;
+  border: 1px solid #ebcf70;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px grey;
+}
+
+.btn.btn-more:hover {
+  color: black !important;
+  background: #ebcf70 !important;
+  border: 1px solid #ebcf70 !important;
+}
+
+.line-yellow {
+  width: 120px;
+  height: 5px;
+  background-color: #ebcf70;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+}
+
+.search-bar-container {
+  position: relative;
+
+}
+
+.loading-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-image img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
